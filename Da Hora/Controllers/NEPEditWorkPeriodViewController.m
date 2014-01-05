@@ -20,6 +20,7 @@
     _timeFormatter = [[NSDateFormatter alloc] init];
     [_timeFormatter setTimeZone:[NSTimeZone timeZoneWithName:@"GMT"]];
     [_timeFormatter setDateFormat:@"HH'h'mm"];
+    NSLog(@"%@", _timePicker.locale.localeIdentifier);
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -27,16 +28,9 @@
     _timePicker.countDownDuration = _currentPeriod;
 }
 
-- (IBAction)saveButtonAction:(id)sender {
+- (void)viewDidDisappear:(BOOL)animated {
     NSTimeInterval interval = _timePicker.countDownDuration;
-    if (_delegate) {
-        [_delegate selectedTimeInterval:interval];
-    }
-    [self.navigationController popToRootViewControllerAnimated:YES];
-}
-
-- (IBAction)cancelButtonAction:(id)sender {
-    [self.navigationController popToRootViewControllerAnimated:YES];
+    if (_delegate) [_delegate selectedTimeInterval:interval];
 }
 
 - (IBAction)valueChanged:(UIDatePicker *)sender {

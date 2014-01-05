@@ -38,13 +38,17 @@ static int progressViewSize;
 - (void)viewDidLoad {
     _current = NEPWorkDay.current;
     
-    progressViewSize = IS_IPHONE5 ? 200 : 150;
+    progressViewSize = IS_IPHONE5 ? 200 : 180;
 
     CGRect screenRect = [[UIScreen mainScreen] bounds];
     int screenWidth = screenRect.size.width;
     int screenHeight = screenRect.size.height;
     int xpos = (screenWidth / 2) - (progressViewSize / 2);
     int ypos = (screenHeight / 2) - (progressViewSize / 2);
+    
+    if (!IS_IPHONE5) {
+        ypos += 20;
+    }
     
     _progressView = [[MDRadialProgressView alloc] initWithFrame:CGRectMake(xpos, ypos, progressViewSize, progressViewSize) andTheme:self.theme];
 	_progressView.progressCounter = 0;

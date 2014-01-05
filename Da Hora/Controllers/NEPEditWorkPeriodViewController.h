@@ -16,8 +16,6 @@
 @property (weak, nonatomic) IBOutlet UITableViewCell *infoCell;
 @property (weak, nonatomic) IBOutlet UIDatePicker *timePicker;
 
-- (IBAction)saveButtonAction:(id)sender;
-- (IBAction)cancelButtonAction:(id)sender;
 - (IBAction)valueChanged:(UIDatePicker *)sender;
 
 @end

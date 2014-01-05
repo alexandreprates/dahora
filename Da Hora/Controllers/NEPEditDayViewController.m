@@ -43,6 +43,10 @@
     [self tableView:self.tableView didSelectRowAtIndexPath:indexPath];
 }
 
+- (void)viewDidDisappear:(BOOL)animated {
+    if (_delegate) [_delegate didUpdateWorkDay:_beginning to:_ending];
+}
+
 #pragma mark Table Row selected
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -66,18 +70,6 @@
 }
 
 #pragma mark View Actions
-
-- (IBAction)saveButtonAction:(id)sender {
-    if (_delegate) {
-        [_delegate didUpdateWorkDay:_beginning to:_ending];
-    }
-    
-    [self.navigationController popToRootViewControllerAnimated:YES];
-}
-
-- (IBAction)cancelButtonAction:(id)sender {
-    [self.navigationController popToRootViewControllerAnimated:YES];
-}
 
 - (IBAction)datePickerValueChanged:(id)sender {
     if (_selectedCell == 0) {

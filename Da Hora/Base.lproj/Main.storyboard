@@ -154,8 +154,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Configurações" id="Y51-0b-OWk">
-                        <barButtonItem key="backBarButtonItem" title="Voltar" id="tLd-Zu-4nD"/>
-                        <barButtonItem key="rightBarButtonItem" title="Salvar" style="done" id="c4y-0M-zYz">
+                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="save" id="c4y-0M-zYz">
                             <connections>
                                 <action selector="saveBarButtonAction:" destination="GnZ-KU-Rg6" id="CQJ-kV-8Ws"/>
                             </connections>
@@ -323,7 +322,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Histórico" id="XpH-bL-TqK">
-                        <barButtonItem key="leftBarButtonItem" title="Voltar" id="4nK-w0-ERd">
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="4nK-w0-ERd">
                             <connections>
                                 <action selector="backButtonAction:" destination="UWS-GD-2JO" id="ttS-Fe-abN"/>
                             </connections>
@@ -489,18 +488,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                             <outlet property="delegate" destination="dOd-Ne-u0O" id="b7q-2K-std"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Editar Horários" id="OH9-S0-Wcg">
-                        <barButtonItem key="leftBarButtonItem" title="Cancelar" id="c6v-mH-qoa">
-                            <connections>
-                                <action selector="cancelButtonAction:" destination="dOd-Ne-u0O" id="pkS-xX-2rx"/>
-                            </connections>
-                        </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Salvar" style="done" id="S1p-di-pdC">
-                            <connections>
-                                <action selector="saveButtonAction:" destination="dOd-Ne-u0O" id="gRu-Ck-GyG"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Editar Horários" id="OH9-S0-Wcg"/>
                     <connections>
                         <outlet property="beginningCell" destination="kAX-xn-fV9" id="CfJ-ot-s6z"/>
                         <outlet property="dateLabel" destination="QAr-fe-mWr" id="bFi-31-x0l"/>
@@ -732,7 +720,6 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdj-BO-mqa">
                                 <rect key="frame" x="0.0" y="38" width="320" height="90"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="320" id="LQE-LZ-ph9"/>
                                     <constraint firstAttribute="height" constant="90" id="Slx-vE-hnI"/>
@@ -842,11 +829,24 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                     <constraint firstAttribute="height" constant="156" id="L2L-25-l8K"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desenvolvido por Alexandre Prates" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="6" adjustsLetterSpacingToFitWidth="YES" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="wE4-0W-Lwf">
+                                <rect key="frame" x="20" y="338" width="280" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="GuD-s0-1XR"/>
+                                    <constraint firstAttribute="height" constant="31" id="YyT-7c-SDk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                <color key="textColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="VnS-gB-P50" firstAttribute="top" secondItem="TTo-CD-odc" secondAttribute="bottom" constant="20" id="2tc-1c-W7n"/>
+                            <constraint firstItem="nf4-iO-vbX" firstAttribute="top" secondItem="wE4-0W-Lwf" secondAttribute="bottom" constant="199" id="4Zh-yl-0F3"/>
                             <constraint firstItem="nf4-iO-vbX" firstAttribute="top" secondItem="84J-7T-2X9" secondAttribute="bottom" constant="76" id="5z5-S7-4vr"/>
+                            <constraint firstItem="wE4-0W-Lwf" firstAttribute="leading" secondItem="wPH-Ho-Ol3" secondAttribute="leading" id="HeE-Bd-B7B"/>
                             <constraint firstItem="nf4-iO-vbX" firstAttribute="top" secondItem="wPH-Ho-Ol3" secondAttribute="bottom" constant="120" id="Ho4-F2-GS8"/>
                             <constraint firstItem="nf4-iO-vbX" firstAttribute="top" secondItem="mU5-kA-BfC" secondAttribute="bottom" constant="20" id="MtR-cx-WOc"/>
                             <constraint firstItem="84J-7T-2X9" firstAttribute="leading" secondItem="Ubl-xF-AtN" secondAttribute="leading" constant="20" symbolic="YES" id="Ncd-Fg-MSV"/>
@@ -1018,18 +1018,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                             <outlet property="delegate" destination="gLJ-7Y-Fqw" id="sux-mW-Efm"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Trabalho" id="k6l-We-xTQ">
-                        <barButtonItem key="leftBarButtonItem" title="Cancelar" id="WD6-E2-BtW">
-                            <connections>
-                                <action selector="cancelButtonAction:" destination="gLJ-7Y-Fqw" id="GXk-jn-F8u"/>
-                            </connections>
-                        </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Salvar" style="done" id="C7q-aK-ovR">
-                            <connections>
-                                <action selector="saveButtonAction:" destination="gLJ-7Y-Fqw" id="Wpq-uk-LKL"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Trabalho" id="k6l-We-xTQ"/>
                     <connections>
                         <outlet property="infoCell" destination="bzK-SS-KRN" id="ub7-md-p3J"/>
                         <outlet property="timePicker" destination="OAa-bb-POK" id="Ksz-7a-LHP"/>

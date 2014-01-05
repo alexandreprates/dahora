@@ -15,9 +15,10 @@ static NEPUserSettings *currentSettings;
 - (void)defaultSettings {
     _workTime    = 35280;
     _beforehandSeconds = 300;
-    _alertBefore = true;
-    _alertOnTime = true;
-    _alertAfter  = true;
+    _alertBefore   = true;
+    _alertOnTime   = true;
+    _alertAfter    = true;
+    _alertOvertime = true;
 }
 
 #pragma mark - NSCoding Protocol

@@ -37,6 +37,7 @@
 		B1E6FB561878C30D00F2838B /* dripicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1E6FB541878BD1200F2838B /* dripicons.ttf */; };
 		B1FF76881878C71F0070C2BB /* NEPToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FF76871878C71F0070C2BB /* NEPToolBarView.m */; };
 		B1FF768A1878D6250070C2BB /* MyAppLab Large.png in Resources */ = {isa = PBXBuildFile; fileRef = B1FF76891878D6250070C2BB /* MyAppLab Large.png */; };
+		B1FF768C1878E4BC0070C2BB /* da_hora.icns in Resources */ = {isa = PBXBuildFile; fileRef = B1FF768B1878E4BC0070C2BB /* da_hora.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,7 @@
 		B1FF76861878C71F0070C2BB /* NEPToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEPToolBarView.h; sourceTree = "<group>"; };
 		B1FF76871878C71F0070C2BB /* NEPToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEPToolBarView.m; sourceTree = "<group>"; };
 		B1FF76891878D6250070C2BB /* MyAppLab Large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MyAppLab Large.png"; sourceTree = "<group>"; };
+		B1FF768B1878E4BC0070C2BB /* da_hora.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = da_hora.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +261,7 @@
 		B1B33340185CCEBF0081D463 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B1FF768B1878E4BC0070C2BB /* da_hora.icns */,
 				B1FF76891878D6250070C2BB /* MyAppLab Large.png */,
 				B1E6FB541878BD1200F2838B /* dripicons.ttf */,
 				B1AB7BAC186E4D4800E14E78 /* dahora.caf */,
@@ -365,6 +368,7 @@
 				B1E6FB561878C30D00F2838B /* dripicons.ttf in Resources */,
 				B1FF768A1878D6250070C2BB /* MyAppLab Large.png in Resources */,
 				B1E6FB551878C30600F2838B /* Main.storyboard in Resources */,
+				B1FF768C1878E4BC0070C2BB /* da_hora.icns in Resources */,
 				B1B33321185CCE670081D463 /* Images.xcassets in Resources */,
 				B1B33313185CCE670081D463 /* InfoPlist.strings in Resources */,
 			);

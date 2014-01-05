@@ -23,8 +23,6 @@
 @property (weak, nonatomic) IBOutlet UITableViewCell *workTimeCell;
 @property (weak, nonatomic) IBOutlet UIDatePicker *datePicker;
 
-- (IBAction)saveButtonAction:(id)sender;
-- (IBAction)cancelButtonAction:(id)sender;
 - (IBAction)datePickerValueChanged:(id)sender;
 
 @end

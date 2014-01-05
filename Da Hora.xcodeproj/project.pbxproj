@@ -7,20 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9C81F3D9DC94B7186568AFE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58AB538CD3F5422FB2D5FCA0 /* libPods.a */; };
+		B1AB7BAA186E449800E14E78 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1AB7BA9186E449800E14E78 /* AudioToolbox.framework */; };
+		B1AB7BB31870E07200E14E78 /* NEPEditWorkPeriodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AB7BB21870E07200E14E78 /* NEPEditWorkPeriodViewController.m */; };
 		B1B33309185CCE670081D463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B33308185CCE670081D463 /* Foundation.framework */; };
 		B1B3330B185CCE670081D463 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B3330A185CCE670081D463 /* CoreGraphics.framework */; };
 		B1B3330D185CCE670081D463 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B3330C185CCE670081D463 /* UIKit.framework */; };
 		B1B33313185CCE670081D463 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1B33311185CCE670081D463 /* InfoPlist.strings */; };
 		B1B33315185CCE670081D463 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B33314185CCE670081D463 /* main.m */; };
 		B1B33319185CCE670081D463 /* NEPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B33318185CCE670081D463 /* NEPAppDelegate.m */; };
-		B1B3331C185CCE670081D463 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B3331A185CCE670081D463 /* Main.storyboard */; };
-		B1B3331F185CCE670081D463 /* NEPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B3331E185CCE670081D463 /* NEPViewController.m */; };
 		B1B33321185CCE670081D463 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1B33320185CCE670081D463 /* Images.xcassets */; };
 		B1B33328185CCE670081D463 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B33327185CCE670081D463 /* XCTest.framework */; };
 		B1B33329185CCE670081D463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B33308185CCE670081D463 /* Foundation.framework */; };
 		B1B3332A185CCE670081D463 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B3330C185CCE670081D463 /* UIKit.framework */; };
 		B1B33332185CCE670081D463 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1B33330185CCE670081D463 /* InfoPlist.strings */; };
 		B1B33334185CCE670081D463 /* Da_HoraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B33333185CCE670081D463 /* Da_HoraTests.m */; };
+		B1B33343185CCFC30081D463 /* NEPUserSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B33342185CCFC30081D463 /* NEPUserSettings.m */; };
+		B1B33346185D0E380081D463 /* NEPSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B33345185D0E380081D463 /* NEPSettingsViewController.m */; };
+		B1B3334F185FCDBD0081D463 /* NEPWorkDay.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B3334E185FCDBD0081D463 /* NEPWorkDay.m */; };
+		B1B3336218628AAE0081D463 /* NEPNoWorkingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B3336118628AAE0081D463 /* NEPNoWorkingViewController.m */; };
+		B1B3336518628AC00081D463 /* NEPWorkingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B3336418628AC00081D463 /* NEPWorkingViewController.m */; };
+		B1B3336B186673340081D463 /* NEPAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B3336A186673340081D463 /* NEPAboutViewController.m */; };
+		B1B3337118671B340081D463 /* NEPHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B3337018671B340081D463 /* NEPHistoryViewController.m */; };
+		B1B333741868A3EA0081D463 /* NEPEditDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B333731868A3EA0081D463 /* NEPEditDayViewController.m */; };
+		B1B3337A186BBF1E0081D463 /* NEPHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B33379186BBF1E0081D463 /* NEPHistoryCell.m */; };
+		B1E6FB4918764A9800F2838B /* NEPEditBeforehandAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E6FB4818764A9800F2838B /* NEPEditBeforehandAlertViewController.m */; };
+		B1E6FB4F1878638D00F2838B /* NEPHourInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E6FB4E1878638D00F2838B /* NEPHourInfo.m */; };
+		B1E6FB551878C30600F2838B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B3331A185CCE670081D463 /* Main.storyboard */; };
+		B1E6FB561878C30D00F2838B /* dripicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1E6FB541878BD1200F2838B /* dripicons.ttf */; };
+		B1FF76881878C71F0070C2BB /* NEPToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FF76871878C71F0070C2BB /* NEPToolBarView.m */; };
+		B1FF768A1878D6250070C2BB /* MyAppLab Large.png in Resources */ = {isa = PBXBuildFile; fileRef = B1FF76891878D6250070C2BB /* MyAppLab Large.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		58AB538CD3F5422FB2D5FCA0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F7F142E45B4CE9A7CEF21F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		B1AB7BA9186E449800E14E78 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B1AB7BAC186E4D4800E14E78 /* dahora.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = dahora.caf; sourceTree = "<group>"; };
+		B1AB7BB11870E07200E14E78 /* NEPEditWorkPeriodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEPEditWorkPeriodViewController.h; sourceTree = "<group>"; };
+		B1AB7BB21870E07200E14E78 /* NEPEditWorkPeriodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEPEditWorkPeriodViewController.m; sourceTree = "<group>"; };
 		B1B33305185CCE670081D463 /* Da Hora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Da Hora.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B33308185CCE670081D463 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B1B3330A185CCE670081D463 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +67,41 @@
 		B1B33317185CCE670081D463 /* NEPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NEPAppDelegate.h; sourceTree = "<group>"; };
 		B1B33318185CCE670081D463 /* NEPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NEPAppDelegate.m; sourceTree = "<group>"; };
 		B1B3331B185CCE670081D463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B1B3331D185CCE670081D463 /* NEPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NEPViewController.h; sourceTree = "<group>"; };
-		B1B3331E185CCE670081D463 /* NEPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NEPViewController.m; sourceTree = "<group>"; };
 		B1B33320185CCE670081D463 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B1B33326185CCE670081D463 /* Da HoraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Da HoraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B33327185CCE670081D463 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B1B3332F185CCE670081D463 /* Da HoraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Da HoraTests-Info.plist"; sourceTree = "<group>"; };
 		B1B33331185CCE670081D463 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B1B33333185CCE670081D463 /* Da_HoraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Da_HoraTests.m; sourceTree = "<group>"; };
+		B1B33341185CCFC30081D463 /* NEPUserSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEPUserSettings.h; sourceTree = "<group>"; };
+		B1B33342185CCFC30081D463 /* NEPUserSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEPUserSettings.m; sourceTree = "<group>"; };
+		B1B33344185D0E380081D463 /* NEPSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEPSettingsViewController.h; sourceTree = "<group>"; };
+		B1B33345185D0E380081D463 /* NEPSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEPSettingsViewController.m; sourceTree = "<group>"; };
+		B1B3334C185D15D30081D463 /* NEPTimeIntervalPickerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NEPTimeIntervalPickerProtocol.h; path = ../NEPTimeIntervalPickerProtocol.h; sourceTree = "<group>"; };
+		B1B3334D185FCDBD0081D463 /* NEPWorkDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEPWorkDay.h; sourceTree = "<group>"; };
+		B1B3334E185FCDBD0081D463 /* NEPWorkDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEPWorkDay.m; sourceTree = "<group>"; };
+		B1B3336018628AAE0081D463 /* NEPNoWorkingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEPNoWorkingViewController.h; sourceTree = "<group>"; };
+		B1B3336118628AAE0081D463 /* NEPNoWorkingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEPNoWorkingViewController.m; sourceTree = "<group>"; };
+		B1B3336318628AC00081D463 /* NEPWorkingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEPWorkingViewController.h; sourceTree = "<group>"; };
+		B1B3336418628AC00081D463 /* NEPWorkingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEPWorkingViewController.m; sourceTree = "<group>"; };
+		B1B33369186673340081D463 /* NEPAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEPAboutViewController.h; sourceTree = "<group>"; };
+		B1B3336A186673340081D463 /* NEPAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEPAboutViewController.m; sourceTree = "<group>"; };
+		B1B3336F18671B340081D463 /* NEPHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEPHistoryViewController.h; sourceTree = "<group>"; };
+		B1B3337018671B340081D463 /* NEPHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEPHistoryViewController.m; sourceTree = "<group>"; };
+		B1B333721868A3EA0081D463 /* NEPEditDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEPEditDayViewController.h; sourceTree = "<group>"; };
+		B1B333731868A3EA0081D463 /* NEPEditDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEPEditDayViewController.m; sourceTree = "<group>"; };
+		B1B33375186B89590081D463 /* NEPEditWorkDayProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NEPEditWorkDayProtocol.h; sourceTree = "<group>"; };
+		B1B33378186BBF1E0081D463 /* NEPHistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEPHistoryCell.h; sourceTree = "<group>"; };
+		B1B33379186BBF1E0081D463 /* NEPHistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEPHistoryCell.m; sourceTree = "<group>"; };
+		B1E6FB4718764A9800F2838B /* NEPEditBeforehandAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEPEditBeforehandAlertViewController.h; sourceTree = "<group>"; };
+		B1E6FB4818764A9800F2838B /* NEPEditBeforehandAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEPEditBeforehandAlertViewController.m; sourceTree = "<group>"; };
+		B1E6FB4A1877867000F2838B /* NEPEditBeforehandProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NEPEditBeforehandProtocol.h; sourceTree = "<group>"; };
+		B1E6FB4D1878638D00F2838B /* NEPHourInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEPHourInfo.h; sourceTree = "<group>"; };
+		B1E6FB4E1878638D00F2838B /* NEPHourInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEPHourInfo.m; sourceTree = "<group>"; };
+		B1E6FB541878BD1200F2838B /* dripicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = dripicons.ttf; sourceTree = "<group>"; };
+		B1FF76861878C71F0070C2BB /* NEPToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEPToolBarView.h; sourceTree = "<group>"; };
+		B1FF76871878C71F0070C2BB /* NEPToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEPToolBarView.m; sourceTree = "<group>"; };
+		B1FF76891878D6250070C2BB /* MyAppLab Large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MyAppLab Large.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +109,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1AB7BAA186E449800E14E78 /* AudioToolbox.framework in Frameworks */,
 				B1B3330B185CCE670081D463 /* CoreGraphics.framework in Frameworks */,
 				B1B3330D185CCE670081D463 /* UIKit.framework in Frameworks */,
 				B1B33309185CCE670081D463 /* Foundation.framework in Frameworks */,
+				A9C81F3D9DC94B7186568AFE /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +137,7 @@
 				B1B3332D185CCE670081D463 /* Da HoraTests */,
 				B1B33307185CCE670081D463 /* Frameworks */,
 				B1B33306185CCE670081D463 /* Products */,
+				93F7F142E45B4CE9A7CEF21F /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +153,12 @@
 		B1B33307185CCE670081D463 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B1AB7BA9186E449800E14E78 /* AudioToolbox.framework */,
 				B1B33308185CCE670081D463 /* Foundation.framework */,
 				B1B3330A185CCE670081D463 /* CoreGraphics.framework */,
 				B1B3330C185CCE670081D463 /* UIKit.framework */,
 				B1B33327185CCE670081D463 /* XCTest.framework */,
+				58AB538CD3F5422FB2D5FCA0 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,12 +166,15 @@
 		B1B3330E185CCE670081D463 /* Da Hora */ = {
 			isa = PBXGroup;
 			children = (
+				B1B3333D185CCE770081D463 /* Controllers */,
+				B1B3333E185CCE920081D463 /* Models */,
+				B1B3333F185CCEAC0081D463 /* Views */,
+				B1B3334B185D157F0081D463 /* Protocols */,
+				B1B33340185CCEBF0081D463 /* Resources */,
 				B1B33317185CCE670081D463 /* NEPAppDelegate.h */,
 				B1B33318185CCE670081D463 /* NEPAppDelegate.m */,
-				B1B3331A185CCE670081D463 /* Main.storyboard */,
-				B1B3331D185CCE670081D463 /* NEPViewController.h */,
-				B1B3331E185CCE670081D463 /* NEPViewController.m */,
 				B1B33320185CCE670081D463 /* Images.xcassets */,
+				B1B3331A185CCE670081D463 /* Main.storyboard */,
 				B1B3330F185CCE670081D463 /* Supporting Files */,
 			);
 			path = "Da Hora";
@@ -152,6 +209,73 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B1B3333D185CCE770081D463 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B1B33369186673340081D463 /* NEPAboutViewController.h */,
+				B1B3336A186673340081D463 /* NEPAboutViewController.m */,
+				B1E6FB4718764A9800F2838B /* NEPEditBeforehandAlertViewController.h */,
+				B1E6FB4818764A9800F2838B /* NEPEditBeforehandAlertViewController.m */,
+				B1B333721868A3EA0081D463 /* NEPEditDayViewController.h */,
+				B1B333731868A3EA0081D463 /* NEPEditDayViewController.m */,
+				B1AB7BB11870E07200E14E78 /* NEPEditWorkPeriodViewController.h */,
+				B1AB7BB21870E07200E14E78 /* NEPEditWorkPeriodViewController.m */,
+				B1B3336F18671B340081D463 /* NEPHistoryViewController.h */,
+				B1B3337018671B340081D463 /* NEPHistoryViewController.m */,
+				B1B3336018628AAE0081D463 /* NEPNoWorkingViewController.h */,
+				B1B3336118628AAE0081D463 /* NEPNoWorkingViewController.m */,
+				B1B33344185D0E380081D463 /* NEPSettingsViewController.h */,
+				B1B33345185D0E380081D463 /* NEPSettingsViewController.m */,
+				B1B3336318628AC00081D463 /* NEPWorkingViewController.h */,
+				B1B3336418628AC00081D463 /* NEPWorkingViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B1B3333E185CCE920081D463 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B1B33341185CCFC30081D463 /* NEPUserSettings.h */,
+				B1B33342185CCFC30081D463 /* NEPUserSettings.m */,
+				B1B3334D185FCDBD0081D463 /* NEPWorkDay.h */,
+				B1B3334E185FCDBD0081D463 /* NEPWorkDay.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B1B3333F185CCEAC0081D463 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1FF76861878C71F0070C2BB /* NEPToolBarView.h */,
+				B1FF76871878C71F0070C2BB /* NEPToolBarView.m */,
+				B1B33378186BBF1E0081D463 /* NEPHistoryCell.h */,
+				B1B33379186BBF1E0081D463 /* NEPHistoryCell.m */,
+				B1E6FB4D1878638D00F2838B /* NEPHourInfo.h */,
+				B1E6FB4E1878638D00F2838B /* NEPHourInfo.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B1B33340185CCEBF0081D463 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B1FF76891878D6250070C2BB /* MyAppLab Large.png */,
+				B1E6FB541878BD1200F2838B /* dripicons.ttf */,
+				B1AB7BAC186E4D4800E14E78 /* dahora.caf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B1B3334B185D157F0081D463 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B1B3334C185D15D30081D463 /* NEPTimeIntervalPickerProtocol.h */,
+				B1E6FB4A1877867000F2838B /* NEPEditBeforehandProtocol.h */,
+				B1B33375186B89590081D463 /* NEPEditWorkDayProtocol.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +283,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1B33337185CCE670081D463 /* Build configuration list for PBXNativeTarget "Da Hora" */;
 			buildPhases = (
+				EF6F9EF7674344469766E0B7 /* Check Pods Manifest.lock */,
 				B1B33301185CCE670081D463 /* Sources */,
 				B1B33302185CCE670081D463 /* Frameworks */,
 				B1B33303185CCE670081D463 /* Resources */,
+				E211249ABE324C4E925900AB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,6 +326,13 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = MyAppLab;
 				TargetAttributes = {
+					B1B33304185CCE670081D463 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
 					B1B33325185CCE670081D463 = {
 						TestTargetID = B1B33304185CCE670081D463;
 					};
@@ -229,9 +362,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1E6FB561878C30D00F2838B /* dripicons.ttf in Resources */,
+				B1FF768A1878D6250070C2BB /* MyAppLab Large.png in Resources */,
+				B1E6FB551878C30600F2838B /* Main.storyboard in Resources */,
 				B1B33321185CCE670081D463 /* Images.xcassets in Resources */,
 				B1B33313185CCE670081D463 /* InfoPlist.strings in Resources */,
-				B1B3331C185CCE670081D463 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,14 +380,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E211249ABE324C4E925900AB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF6F9EF7674344469766E0B7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B1B33301185CCE670081D463 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1B3331F185CCE670081D463 /* NEPViewController.m in Sources */,
+				B1B3336518628AC00081D463 /* NEPWorkingViewController.m in Sources */,
+				B1B3334F185FCDBD0081D463 /* NEPWorkDay.m in Sources */,
+				B1B333741868A3EA0081D463 /* NEPEditDayViewController.m in Sources */,
+				B1B3337118671B340081D463 /* NEPHistoryViewController.m in Sources */,
+				B1B33346185D0E380081D463 /* NEPSettingsViewController.m in Sources */,
+				B1AB7BB31870E07200E14E78 /* NEPEditWorkPeriodViewController.m in Sources */,
 				B1B33319185CCE670081D463 /* NEPAppDelegate.m in Sources */,
+				B1E6FB4918764A9800F2838B /* NEPEditBeforehandAlertViewController.m in Sources */,
 				B1B33315185CCE670081D463 /* main.m in Sources */,
+				B1B3337A186BBF1E0081D463 /* NEPHistoryCell.m in Sources */,
+				B1B3336218628AAE0081D463 /* NEPNoWorkingViewController.m in Sources */,
+				B1FF76881878C71F0070C2BB /* NEPToolBarView.m in Sources */,
+				B1E6FB4F1878638D00F2838B /* NEPHourInfo.m in Sources */,
+				B1B3336B186673340081D463 /* NEPAboutViewController.m in Sources */,
+				B1B33343185CCFC30081D463 /* NEPUserSettings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +556,7 @@
 		};
 		B1B33338185CCE670081D463 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93F7F142E45B4CE9A7CEF21F /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -389,6 +570,7 @@
 		};
 		B1B33339185CCE670081D463 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93F7F142E45B4CE9A7CEF21F /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -461,6 +643,7 @@
 				B1B33339185CCE670081D463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1B3333A185CCE670081D463 /* Build configuration list for PBXNativeTarget "Da HoraTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +652,7 @@
 				B1B3333C185CCE670081D463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -11,6 +11,7 @@
 @interface NEPNoWorkingViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIDatePicker *beginningDatePicker;
+@property (weak, nonatomic) IBOutlet UIButton *beginningButton;
 
 - (IBAction)startWorkingButtonAction:(id)sender;
 

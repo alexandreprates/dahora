@@ -24,8 +24,8 @@
     if (NEPWorkDay.current.started) {
         [self performSegueWithIdentifier:@"WorkInProgress" sender:self];
     } else {
-        self.view.hidden = false;
         _beginningDatePicker.date = [NSDate date];
+        self.view.hidden = false;
     }
 }
 

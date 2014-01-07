@@ -20,7 +20,6 @@
     _timeFormatter = [[NSDateFormatter alloc] init];
     [_timeFormatter setTimeZone:[NSTimeZone timeZoneWithName:@"GMT"]];
     [_timeFormatter setDateFormat:@"HH'h'mm"];
-    NSLog(@"%@", _timePicker.locale.localeIdentifier);
 }
 
 - (void)viewDidAppear:(BOOL)animated {

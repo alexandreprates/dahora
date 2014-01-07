@@ -16,8 +16,8 @@
 
 @property (strong, nonatomic) NSDate *beginning;
 @property (strong, nonatomic) NSDate *ending;
+@property (weak, nonatomic) IBOutlet UITableViewCell *displayDateCell;
 
-@property (weak, nonatomic) IBOutlet UILabel *dateLabel;
 @property (weak, nonatomic) IBOutlet UITableViewCell *beginningCell;
 @property (weak, nonatomic) IBOutlet UITableViewCell *endingCell;
 @property (weak, nonatomic) IBOutlet UITableViewCell *workTimeCell;

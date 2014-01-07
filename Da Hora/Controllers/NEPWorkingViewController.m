@@ -11,6 +11,8 @@
 #import "NEPUserSettings.h"
 #import "NEPHourInfo.h"
 
+#import "Appirater.h"
+
 #import "MDRadialProgressView.h"
 #import "MDRadialProgressTheme.h"
 #import "MDRadialProgressLabel.h"
@@ -199,6 +201,9 @@ static int progressViewSize;
     
     [NEPWorkDay resetCurrent];
     [[UIApplication sharedApplication] cancelAllLocalNotifications];
+    
+    [Appirater userDidSignificantEvent:YES];
+    
     [self dismissViewControllerAnimated:false completion:nil];
 }
 

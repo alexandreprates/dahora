@@ -27,9 +27,9 @@
     [_timerFormatter setDateFormat:@"HH:mm"];
 
     NSDateFormatter *dayFormatter = [[NSDateFormatter alloc] init];
-    [dayFormatter setDateFormat:@"EEE d/MM/YYYY"];
+    [dayFormatter setDateFormat:@"EEEE, d 'de' MMMM"];
     
-    _dateLabel.text = [dayFormatter stringFromDate:_beginning];
+    _displayDateCell.textLabel.text = [dayFormatter stringFromDate:_beginning];
     _beginningCell.detailTextLabel.text = [_dateFormatter stringFromDate:_beginning];
     _endingCell.detailTextLabel.text    = [_dateFormatter stringFromDate:_ending];
     

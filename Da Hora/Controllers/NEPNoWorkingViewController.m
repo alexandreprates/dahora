@@ -18,6 +18,7 @@
 
 - (void)viewDidLoad {
     self.view.hidden = true;
+    _scrollView.contentSize = CGSizeMake(_scrollView.frame.size.width, _scrollView.frame.size.height + 200);
 }
 
 - (void)viewDidAppear:(BOOL)animated {

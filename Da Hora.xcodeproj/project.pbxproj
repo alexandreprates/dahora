@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B18C7B99187CE14E0085E7A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B18C7B97187CE14E0085E7A1 /* Main.storyboard */; };
 		B1AB7BAA186E449800E14E78 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1AB7BA9186E449800E14E78 /* AudioToolbox.framework */; };
 		B1AB7BB31870E07200E14E78 /* NEPEditWorkPeriodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AB7BB21870E07200E14E78 /* NEPEditWorkPeriodViewController.m */; };
 		B1B33309185CCE670081D463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B33308185CCE670081D463 /* Foundation.framework */; };
@@ -43,7 +44,6 @@
 		B1BCC1CF187A2E860005F00D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1BCC1CE187A2E860005F00D /* StoreKit.framework */; };
 		B1E6FB4918764A9800F2838B /* NEPEditBeforehandAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E6FB4818764A9800F2838B /* NEPEditBeforehandAlertViewController.m */; };
 		B1E6FB4F1878638D00F2838B /* NEPHourInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E6FB4E1878638D00F2838B /* NEPHourInfo.m */; };
-		B1E6FB551878C30600F2838B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B3331A185CCE670081D463 /* Main.storyboard */; };
 		B1E6FB561878C30D00F2838B /* dripicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1E6FB541878BD1200F2838B /* dripicons.ttf */; };
 		B1FF76881878C71F0070C2BB /* NEPToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FF76871878C71F0070C2BB /* NEPToolBarView.m */; };
 		B1FF768A1878D6250070C2BB /* MyAppLab Large.png in Resources */ = {isa = PBXBuildFile; fileRef = B1FF76891878D6250070C2BB /* MyAppLab Large.png */; };
@@ -62,6 +62,7 @@
 
 /* Begin PBXFileReference section */
 		58AB538CD3F5422FB2D5FCA0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18C7B98187CE14E0085E7A1 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = pt; path = pt.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1AB7BA9186E449800E14E78 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		B1AB7BAC186E4D4800E14E78 /* dahora.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = dahora.caf; sourceTree = "<group>"; };
 		B1AB7BB11870E07200E14E78 /* NEPEditWorkPeriodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEPEditWorkPeriodViewController.h; sourceTree = "<group>"; };
@@ -76,7 +77,6 @@
 		B1B33316185CCE670081D463 /* Da Hora-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Da Hora-Prefix.pch"; sourceTree = "<group>"; };
 		B1B33317185CCE670081D463 /* NEPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NEPAppDelegate.h; sourceTree = "<group>"; };
 		B1B33318185CCE670081D463 /* NEPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NEPAppDelegate.m; sourceTree = "<group>"; };
-		B1B3331B185CCE670081D463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1B33320185CCE670081D463 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B1B33326185CCE670081D463 /* Da HoraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Da HoraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B33327185CCE670081D463 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -230,8 +230,8 @@
 				B1B33340185CCEBF0081D463 /* Resources */,
 				B1B33317185CCE670081D463 /* NEPAppDelegate.h */,
 				B1B33318185CCE670081D463 /* NEPAppDelegate.m */,
+				B18C7B97187CE14E0085E7A1 /* Main.storyboard */,
 				B1B33320185CCE670081D463 /* Images.xcassets */,
-				B1B3331A185CCE670081D463 /* Main.storyboard */,
 				B1B3330F185CCE670081D463 /* Supporting Files */,
 			);
 			path = "Da Hora";
@@ -490,10 +490,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1BCC1C3187A2B150005F00D /* AppiraterLocalizable.strings in Resources */,
+				B18C7B99187CE14E0085E7A1 /* Main.storyboard in Resources */,
 				B1E6FB561878C30D00F2838B /* dripicons.ttf in Resources */,
 				B1BCC1C9187A2B150005F00D /* README.md in Resources */,
 				B1FF768A1878D6250070C2BB /* MyAppLab Large.png in Resources */,
-				B1E6FB551878C30600F2838B /* Main.storyboard in Resources */,
 				B1FF768C1878E4BC0070C2BB /* da_hora.icns in Resources */,
 				B1B33321185CCE670081D463 /* Images.xcassets in Resources */,
 				B1BCC1C5187A2B150005F00D /* LICENSE in Resources */,
@@ -558,20 +558,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		B18C7B97187CE14E0085E7A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B18C7B98187CE14E0085E7A1 /* pt */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		B1B33311185CCE670081D463 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B1B33312185CCE670081D463 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		B1B3331A185CCE670081D463 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B1B3331B185CCE670081D463 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		B1B33330185CCE670081D463 /* InfoPlist.strings */ = {

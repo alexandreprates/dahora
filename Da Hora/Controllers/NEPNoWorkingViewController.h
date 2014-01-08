@@ -12,6 +12,7 @@
 
 @property (weak, nonatomic) IBOutlet UIDatePicker *beginningDatePicker;
 @property (weak, nonatomic) IBOutlet UIButton *beginningButton;
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
 - (IBAction)startWorkingButtonAction:(id)sender;
 
